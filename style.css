@@ -5,7 +5,7 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background-color: #f4f4f4;
+    background-color: green;
     margin: 0;
     padding: 30px;
 }
@@ -14,9 +14,13 @@ h1 {
     margin-bottom: 20px;
 }
 
+.controls {
+    margin-bottom: 25px;
+}
+
 button {
     padding: 10px 18px;
-    margin-bottom: 25px;
+    margin: 5px;
     border: none;
     border-radius: 5px;
     background-color: #333;
@@ -26,6 +30,14 @@ button {
 
 button:hover {
     background-color: #555;
+}
+
+input[type="color"] {
+    width: 50px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    vertical-align: middle;
 }
 
 #grid-container {

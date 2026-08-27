@@ -73,9 +73,7 @@ rainbowButton.addEventListener("click", () => {
 
 // Change grid size
 resizeButton.addEventListener("click", () => {
-    let size = prompt(
-        "Enter the number of squares per side (1-100):"
-    );
+    let size = prompt( "Enter the number of squares per side (1-100):" );
 
     size = Number(size);
 
